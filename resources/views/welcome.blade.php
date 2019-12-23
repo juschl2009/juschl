@@ -4,17 +4,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>JuSchl</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
+                background-color: #636b6f;
+                color: white;
+
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
@@ -46,16 +46,21 @@
 
             .title {
                 font-size: 84px;
+                font-family: 'Audiowide', cursive;
             }
 
             .links > a {
-                color: #636b6f;
+
+                color: white;
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+            }
+            .links {
+                font-family: 'Nunito', sans-serif;
             }
 
             .m-b-md {
@@ -81,18 +86,17 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    JuSchl
                 </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                <div class="links">Hier entsteht was!</div>
+                <div class="links" style="visibility: hidden">
+                    <a href="">Profil</a>
+                    <a href="">Werdegang</a>
+                    <a href="">Projekte</a>
+                    <a href="">News</a>
+                    <a href="">Blog</a>
+                    <a href="">Privat</a>
+                    <a href="">Links</a>
                 </div>
             </div>
         </div>
