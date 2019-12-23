@@ -1,1 +1,58 @@
-html, body { background-color: #636b6f}
+html, body {
+    background-color: #636b6f;
+    color: white;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+footer {height: 120px; margin-left: 2vw;}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+    font-family: 'Audiowide', cursive;
+}
+
+.links > a {
+    color: white;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.links {
+    font-family: 'Nunito', sans-serif;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+
+

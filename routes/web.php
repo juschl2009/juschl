@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PathController@home');
+
+Route::get('/dsgvo', 'PathController@dsgvo');
