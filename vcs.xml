@@ -10,6 +10,10 @@
           <option name="url" value="https://github.com/juschl2009/waterside" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/juschl2009/juschl" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="E:\laragon\www" />
