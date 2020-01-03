@@ -14,3 +14,5 @@
 Route::get('/', 'PathController@home');
 
 Route::get('/dsgvo', 'PathController@dsgvo');
+
+Route::get('/impressum', 'PathController@impressum');

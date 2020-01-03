@@ -13,4 +13,8 @@ class PathController extends Controller
     public function dsgvo() {
         return view('dsgvo');
     }
+
+    public function impressum() {
+        return view('impressum');
+    }
 }

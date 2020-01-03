@@ -1,13 +1,24 @@
 @extends('layout')
 @section('title', 'Huhu ')
 @section('content')
-        <div class="flex-center position-ref full-height">
+        <section id="start"><div class="flex-center position-ref full-height">
 
-            <div class="content">
+            <div class="m-b-md">
                 <div class="title m-b-md">
                     JuSchl
                 </div>
-                <div class="links">Hier entsteht was!</div>
+                <div class="container">Hier entsteht was!</div>
             </div>
         </div>
+        </section>
+        <section id="profil">
+            @include('seiten.profil')
+        </section>
+        <section id="werdegang">
+            @include('seiten.werdegang')
+        </section>
+        <section id="links">
+            @include('seiten.links')
+        </section>
+
 @endsection
