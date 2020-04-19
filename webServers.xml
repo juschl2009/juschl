@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8632632d-2f39-49b9-8bf7-5c2e50fc9c2f" name="juschl" url="http://www.juschl.me">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
